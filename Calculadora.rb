@@ -13,6 +13,12 @@ when "1"
     a = gets.chomp
     puts "Numero B:"
     b = gets.chomp
-    puts "A soma de #{a} e #{b} é: #{a.to_i+b.to_i}"    
+    puts "A soma de #{a} e #{b} é: #{a.to_i + b.to_i}"  
+when "2"
+    puts "Numero A:"
+    a = gets.chomp
+    puts "Numero B:"
+    b = gets.chomp
+    puts "A subtração de #{a} por #{b} é: #{a.to_i - b.to_i}"
 else "opção inválida"
 end
